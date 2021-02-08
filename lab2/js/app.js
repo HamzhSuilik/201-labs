@@ -73,6 +73,7 @@ alert("Yore score is :"+score +" Out of 5");
 document.getElementById("welcome").innerText="welcome "+ name;
 document.getElementById("score").innerText="Yore score is :"+score +" Out of 5";
 
+// 
 // https://www.w3schools.com/cssref/pr_font_font-size.asp
 // https://www.w3schools.com/howto/howto_css_image_center.asp
 
