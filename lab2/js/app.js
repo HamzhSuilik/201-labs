@@ -1,4 +1,5 @@
 var name =prompt("What is your name ?");
+
 alert("welcome "+ name);
 var score =0;
 
@@ -67,13 +68,19 @@ if (question_5=='n' || question_5=='no'){
 }
 // ***********************************************************
 
+let num=5;
+while(num){
+    alert("-->"+num);
+    num-=1;
+    alert("*****");
+}
 
 alert("Yore score is :"+score +" Out of 5");
 
 document.getElementById("welcome").innerText="welcome "+ name;
 document.getElementById("score").innerText="Yore score is :"+score +" Out of 5";
 
-// 
+
 // https://www.w3schools.com/cssref/pr_font_font-size.asp
 // https://www.w3schools.com/howto/howto_css_image_center.asp
 
